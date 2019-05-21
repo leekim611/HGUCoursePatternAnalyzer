@@ -64,6 +64,7 @@ public class HGUCoursePatternAnalyzer {
 				continue;
 			}
 			students.add(student);
+			i++;
 			if (i == numOfStudents) {
 				return students;
 			}
@@ -107,6 +108,7 @@ public class HGUCoursePatternAnalyzer {
 				continue;
 			}
 			courses.add(course);
+			i++;
 			if (i == numOfCourses) {
 				return courses;
 			}
